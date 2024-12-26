@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-gradient-to-br from-blue-500 to-purple-700 p-8 flex items-center justify-center">
+    <div class="min-h-screen bg-gradient-to-br from-gray-900 to-blue-800 p-8 flex items-center justify-center">
       <div class="w-full max-w-3xl bg-white rounded-xl shadow-lg p-6">
         <!-- Header -->
         <div class="text-center mb-6">
@@ -12,9 +12,14 @@
           <div class="py-4">
             <h2 class="text-2xl font-semibold text-gray-800 mb-2">📍 Address</h2>
             <p class="text-gray-600">
-              123, Main Street,<br />
-              Downtown, Cityville,<br />
-              State - 56789, Country
+              Singarahiya,ward no-1,gram+post-singarahiya<br />
+              sitamarhi,Bihar<br />
+              843317, India
+            </p>
+            <p class="text-gray-600">
+              Manguraha,ward no-2,gram+post-manguraha<br />
+              sundar nagar,sitamarhi,Bihar<br />
+              843302, India
             </p>
           </div>
   
@@ -23,17 +28,17 @@
             <h2 class="text-2xl font-semibold text-gray-800 mb-2">📞 Contact Details</h2>
             <ul class="text-gray-600 space-y-2">
               <li>
-                <strong>Phone:</strong> +1 234-567-8901
+                <strong>Phone:</strong> +91 7739717389
               </li>
               <li>
                 <strong>Email:</strong>
-                <a href="mailto:contact@example.com" class="text-blue-600 hover:underline">
-                  contact@example.com
+                <a href="shrutikumaripandit@gmail.com" class="text-blue-600 hover:underline">
+                  shrutikumaripandit@gmail.com
                 </a>
               </li>
               <li>
                 <strong>Website:</strong>
-                <a href="#" class="text-blue-600 hover:underline">www.example.com</a>
+                <a href="#" class="text-blue-600 hover:underline">www.shrutiportfolio.com</a>
               </li>
             </ul>
           </div>
@@ -47,8 +52,8 @@
                   href="#"
                   class="flex items-center space-x-2 text-blue-600 hover:text-blue-800"
                 >
-                  <i class="fab fa-facebook"></i>
-                  <span>Facebook</span>
+                  <i class="fab fa-shrutikpandit"></i>
+                  <span>InstaGram</span>
                 </a>
               </li>
               <li>
@@ -56,7 +61,7 @@
                   href="#"
                   class="flex items-center space-x-2 text-blue-500 hover:text-blue-700"
                 >
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-skpandit"></i>
                   <span>Twitter</span>
                 </a>
               </li>
@@ -65,7 +70,7 @@
                   href="#"
                   class="flex items-center space-x-2 text-blue-800 hover:text-blue-900"
                 >
-                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-shruti Pandit"></i>
                   <span>LinkedIn</span>
                 </a>
               </li>

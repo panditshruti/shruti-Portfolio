@@ -6,8 +6,8 @@
             <!-- Logo Section -->
             <div class="mb-6 md:mb-0">
               <a href="#" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                <img src="@/assets/shruti.png" class="mr-3 h-8" alt="Shruti" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Shruti</span>
               </a>
             </div>
             <!-- Links Section -->
@@ -52,7 +52,7 @@
           </div>
           <!-- Contact Number -->
           <div class="mt-8 flex flex-col sm:flex-row sm:justify-between">
-            <span class="text-sm text-gray-500 dark:text-gray-400">Contact us: +1 (123) 456-7890</span>
+            <span class="text-sm text-gray-500 dark:text-gray-400">Contact us: +91 7739717389</span>
             <!-- Social Media Icons -->
             <div class="flex mt-4 space-x-6 sm:mt-0">
               <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -79,7 +79,7 @@
       </footer>
     </div>
   </template>
-  
+
   <script>
   export default {};
   </script>
