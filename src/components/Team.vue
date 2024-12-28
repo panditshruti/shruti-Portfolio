@@ -10,7 +10,7 @@
         <div class="divide-y divide-gray-300">
           <!-- Address Section -->
           <div class="py-4">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-2">📍 Address</h2>
+            <h2 class="text-2xl font-semibold text-gray-800 mb-2"> Address</h2>
             <p class="text-gray-600">
               Singarahiya,ward no-1,gram+post-singarahiya<br />
               sitamarhi,Bihar<br />
