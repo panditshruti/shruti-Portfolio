@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-gradient-to-br from-gray-900 to-blue-800 p-8 flex items-center justify-center">
+    <div class="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 p-8 flex items-center justify-center">
       <div class="w-full max-w-3xl bg-white rounded-xl shadow-lg p-6">
         <!-- Header -->
         <div class="text-center mb-6">
