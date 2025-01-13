@@ -11,7 +11,8 @@
         <img
           :src="recipe.image"
           :alt="recipe.name"
-          class="w-24 h-24 object-cover rounded"
+          class="w-24 h-24 object-cover rounded cursor-pointer"
+          @click="viewImage(recipe.image)"
         />
         <!-- Recipe Details -->
         <div>
@@ -29,6 +30,22 @@
     <div v-else>
       <p>Loading recipes...</p>
     </div>
+
+    <!-- Image Modal -->
+    <div
+      v-if="selectedImage"
+      class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+    >
+      <div class="relative">
+        <img :src="selectedImage" alt="Selected Recipe" class="max-w-full max-h-screen rounded" />
+        <button
+          @click="closeImage"
+          class="absolute top-2 right-2 text-white text-2xl font-bold bg-red-600 rounded-full px-2"
+        >
+          &times;
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -37,6 +54,7 @@ export default {
   data() {
     return {
       recipes: [], // Initialize as an empty array
+      selectedImage: null, // To hold the image to be displayed in the modal
     };
   },
   mounted() {
@@ -51,6 +69,12 @@ export default {
       } catch (error) {
         console.error("Error fetching recipes:", error);
       }
+    },
+    viewImage(image) {
+      this.selectedImage = image; // Set the selected image to be displayed
+    },
+    closeImage() {
+      this.selectedImage = null; // Clear the selected image to close the modal
     },
   },
 };
