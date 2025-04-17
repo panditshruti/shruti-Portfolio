@@ -40,7 +40,7 @@
         <img :src="selectedImage" alt="Selected Recipe" class="max-w-full max-h-screen rounded" />
         <button
           @click="closeImage"
-          class="absolute top-2 right-2 text-white text-2xl font-bold bg-red-600 rounded-full px-2"
+          class="absolute top-2 right-2 text-white text-2xl font-bold bg-blue-600 rounded-full px-2"
         >
           &times;
         </button>

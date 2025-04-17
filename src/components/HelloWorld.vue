@@ -4,7 +4,7 @@
       <!-- Text Section -->
       <div class="text-center lg:text-left flex-grow lg:w-2/3">
         <h1 class="text-4xl lg:text-6xl font-bold text-blue-300 mb-4">Hello, I'm</h1>
-        <h2 class="text-3xl lg:text-5xl font-bold text-blue-400 mb-4">Shruti Pandit</h2>
+        <h2 class="text-3xl lg:text-5xl font-bold text-blue-400 mb-4">shruti Pandit</h2>
         <p class="text-lg lg:text-xl font-semibold mb-4">And I'm a <span class="text-blue-400">android and Web software Developer</span></p>
         <p class="text-md lg:text-lg mb-6">
           I'm an Android software developer and web developer and designer with extensive experience for over 

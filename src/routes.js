@@ -7,6 +7,7 @@ import Footer from './components/Footer.vue';
 import Login from './components/Login.vue';
 import Contect from './components/Contect.vue';
 import Team from './components/Team.vue';
+import StudentApi from './components/StudentApi.vue';
 
 const routes = [
     {
@@ -42,6 +43,11 @@ const routes = [
     {name: 'Team',
      component:Team,
      path: '/Team'
+    },
+    {name: 'StudentApi',
+        component:StudentApi,
+        path:'/StudentApi',
+        
     }
 ];
 

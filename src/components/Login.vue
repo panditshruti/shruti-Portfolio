@@ -2,6 +2,14 @@
   <div class="min-h-screen flex items-center justify-center bg-gray-100">
     <div class="bg-white p-8 rounded-lg shadow-md w-96">
       <h2 class="text-2xl font-bold text-center mb-6 text-blue-800">Enter Details</h2>
+
+      <!-- Display Saved Data -->
+      <div v-if="isSubmitted" class="mb-6 p-4 bg-blue-100 rounded-lg text-blue-800">
+        <p><strong>Email:</strong> {{ savedEmail }}</p>
+        <p><strong>Password:</strong> {{ savedPassword }}</p>
+      </div>
+
+      <!-- Form -->
       <form @submit.prevent="saveData" class="space-y-4">
         <div>
           <label for="email" class="block text-sm font-medium text-blue-800">Email</label>
@@ -27,7 +35,7 @@
           type="submit"
           class="w-full bg-blue-800 text-white font-semibold py-2 rounded-md hover:bg-blue-900 transition duration-300"
         >
-          Save and Go to Next Page
+          Save and Display
         </button>
       </form>
     </div>
@@ -40,16 +48,23 @@ export default {
     return {
       email: "",
       password: "",
+      savedEmail: "", // For displaying the saved email
+      savedPassword: "", // For displaying the saved password
+      isSubmitted: false, // To track if the form is submitted
     };
   },
   methods: {
     saveData() {
-      // Save data to localStorage
-      localStorage.setItem("userEmail", this.email);
-      localStorage.setItem("userPassword", this.password);
+      // Save data locally
+      this.savedEmail = this.email;
+      this.savedPassword = this.password;
 
-      // Redirect to the second page
-      this.$router.push("/page2");
+      // Mark the form as submitted
+      this.isSubmitted = true;
+
+      // Clear input fields (optional)
+      this.email = "";
+      this.password = "";
     },
   },
 };
